@@ -30,7 +30,7 @@ const Footer = ({ scrollToContact }) => {
       <div className="right-content">
         <img
           src="/Images/nipuniremove.png"
-          alt="Cover"
+
           className="content-image"
         />
       </div>
