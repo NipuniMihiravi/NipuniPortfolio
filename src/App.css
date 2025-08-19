@@ -34,7 +34,7 @@ body {
   height: 100%;
   background-image: linear-gradient( 358.4deg,  rgba(249,151,119,1) -2.1%, rgba(98,58,162,1) 90% );
   border: 8px solid #1d1160;
-  padding-top: 20px;
+  padding-top: 5px;
   display: flex;
   flex-direction: column;
   letter-spacing: 1px;
@@ -93,7 +93,7 @@ body {
   flex-direction: column;
   align-items: center;
   height: 100%;
-  gap: 10px;
+  gap: 5px;
 }
 
 .nav-links li {
@@ -111,7 +111,7 @@ body {
 
 /* Link Styles */
 .nav-links li button {
-  margin-top: 20px;
+  margin-top: 15px;
   display: block;
   padding: 12px 20px;
   width: 80%;

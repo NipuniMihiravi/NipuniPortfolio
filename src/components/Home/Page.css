@@ -156,7 +156,7 @@ body {
 
 
   .footer-heading {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .social-icons img {
@@ -193,7 +193,7 @@ body {
   }
 
   .footer-heading {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .footer-logo2 {
@@ -243,6 +243,7 @@ body {
   margin-right: 10px;
   cursor: pointer;
   border-radius: 5px;
+    text-decoration: none;
 }
 
 .button-group button:hover {
@@ -321,7 +322,7 @@ body {
   }
 
   .intro-heading .role {
-    font-size: 32px;
+    font-size: 40px;
   }
 
   .name {
@@ -331,6 +332,7 @@ body {
   .button-group button {
     padding: 8px 30px;
     font-size: 14px;
+      text-decoration: none;
   }
 }
 
@@ -359,7 +361,7 @@ body {
   }
 
   .intro-heading .role {
-    font-size: 24px;
+    font-size: 35px;
   }
 
   .name {
@@ -372,6 +374,7 @@ body {
     width: 80%;
     padding: 8px;
     font-size: 13px;
+      text-decoration: none;
   }
 }
 
@@ -728,7 +731,7 @@ margin-left:10px;
 /* Tablet (768px and below) */
 @media (max-width: 768px) {
   .toggle-wording-heading {
-    font-size: 28px;
+    font-size: 30px;
     margin-left: 20px; /* reduce spacing */
     text-align: center; /* center heading */
   }
@@ -1055,7 +1058,7 @@ letter-spacing: 3px;
   }
 
   .wording h1 {
-    font-size: 28px !important;
+    font-size: 30px !important;
     letter-spacing: 1px !important;
   }
 
@@ -1087,7 +1090,7 @@ letter-spacing: 3px;
   }
 
   .wording h1 {
-    font-size: 22px !important;
+    font-size: 30px !important;
     letter-spacing: 0.8px !important;
   }
 
@@ -1170,7 +1173,7 @@ letter-spacing: 3px;
 /* For Devices with Max Width of 768px (Tablets, small laptops) */
 @media screen and (max-width: 768px) {
   .wording h1 {
-    font-size: 18px; /* Adjust font size */
+    font-size: 30px; /* Adjust font size */
 
   }
   .wording .highlight {
@@ -1210,7 +1213,7 @@ letter-spacing: 3px;
 /* For Devices with Max Width of 480px (Mobile) */
 @media screen and (max-width: 480px) {
   .wording h1 {
-    font-size: 18px;
+    font-size: 30px;
     letter-spacing: 1px;
   }
     .wording .highlight {
