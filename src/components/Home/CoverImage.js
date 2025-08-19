@@ -7,7 +7,7 @@ const Footer = ({ scrollToContact }) => {
       {/* Left Side */}
       <div className="left-content">
         <div className="intro-heading">
-          <h2 className="role">Full Stack Developer</h2>
+          <h2 className="role">Software Engineer</h2>
           <h2 className="name">
             I am <br />
             <span className="highlight">Nipuni Mihiravi</span>
