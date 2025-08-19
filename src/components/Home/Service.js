@@ -11,9 +11,9 @@ const skillsData = [
   { category: "Database", name: "MySQL", rating: 90 },
   { category: "Cloud", name: "Render", rating: 90 },
   {category: "Other Skills", name: "GitHub", rating: 85 },
-   {category: "Other Skills", name: "Postman APT Testing", rating: 95 },
+   {category: "Other Skills", name: "Postman API Testing", rating: 95 },
    {category: "Other Skills", name: "CRUD Operation", rating: 95 },
-   {category: "Methodology", name: "SRUM, Agil, MVC", rating: 95 },
+   {category: "Methodology", name: "Agile with expertise in Scrum, MVC", rating: 95 },
 
 ];
 
