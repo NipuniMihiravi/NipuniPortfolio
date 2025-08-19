@@ -25,7 +25,7 @@ const BackButton = () => {
 // Main App component
 function App() {
   // Array of image URLs from public folder
-  const images = ["/images/C4.jpg"];
+  const images = ["/Images/C4.jpg"];
 
   return (
     <div className="Apps">

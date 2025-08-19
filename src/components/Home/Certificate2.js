@@ -25,8 +25,8 @@ const BackButton = () => {
 // Main App component
 function App() {
   const images = [
-    "/images/C6.jpg",
-    "/images/C7.jpg"
+    "/Images/C6.jpg",
+    "/Images/C7.jpg"
   ]; // ✅ removed extra bracket
 
   return (

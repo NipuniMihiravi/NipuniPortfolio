@@ -26,9 +26,9 @@ const BackButton = () => {
 function App() {
   const images = [
 
-    "/images/C3.jpg",
-    "/images/C1.jpg",
-    "/images/C2.jpg"
+    "/Images/C3.jpg",
+    "/Images/C1.jpg",
+    "/Images/C2.jpg"
   ];
 
   return (

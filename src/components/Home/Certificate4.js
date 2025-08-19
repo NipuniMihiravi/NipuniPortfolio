@@ -24,7 +24,7 @@ const BackButton = () => {
 
 // Main App component
 function App() {
-    const images = ["/images/C5.jpg"];
+    const images = ["/Images/C5.jpg"];
 
   return (
     <div className="Apps">
