@@ -1,0 +1,1688 @@
+* {
+  margin: 0;
+  padding: 0;
+   box-sizing: border-box;
+
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  letter-spacing:1px;
+  margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #4B6F44;
+
+}
+
+
+/* ====== FOOTER MAIN STYLES ====== */
+.footer {
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  color: #fff;
+  width: 100%;
+  border: 10px solid #DDA0DD;
+  padding: 30px 20px;
+}
+
+/* ====== LEFT COLUMN (CONTACT DETAILS) ====== */
+
+.footer-column,
+.footer-column2 {
+  flex: 1 1 300px;
+  margin: 10px;
+}
+.footer-column {
+  flex: 1;
+  min-width: 300px;
+  flex-direction: column;
+  align-items: center;
+ margin-left:150px;
+
+}
+
+.footer-heading {
+  font-size: 35px;
+  font-weight: bold;
+  color: #1d1160;
+  margin-bottom: 20px;
+  letter-spacing: 1.3px;
+}
+
+
+
+
+/* ====== SOCIAL ICONS ====== */
+.contact-info2 {
+  list-style: none;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.contact-info2 li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  font-weight: bold;
+  color: #1d1160;
+  margin-right: 8px;
+}
+
+.content {
+  color: white;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+}
+
+.social-links .social-icons {
+  display: flex;
+  gap: 10px; /* Space between icons */
+}
+
+.social-icons a {
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 24px; /* Adjust icon size */
+  height: 24px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+/* ====== RIGHT COLUMN (LOGO & COPYRIGHT) ====== */
+.footer-column2 {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.footer-logo2 {
+  width: 200px;
+  height: auto;
+}
+
+.footer-bar {
+  font-size: 14px;
+  text-align: center;
+  color: #ccc;
+}
+
+
+
+/* Small devices (phones, 600px and under) */
+@media screen and (max-width: 600px) {
+   .footer {
+     flex-direction: column;
+     align-items: flex-start; /* Align children to the left */
+     text-align: left;
+   }
+
+   .footer-column,
+   .footer-column2 {
+     width: 100%;
+     max-width: 100%;
+     margin: 15px 0;
+     background-color: transparent; /* Optional: remove red for mobile */
+     align-items: flex-start; /* Align children to the left */
+   }
+
+.contact-info2 {
+  list-style: none;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size:15px;
+
+}
+
+
+  .footer-heading {
+    font-size: 40px;
+  }
+
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .footer-logo2 {
+    width: 120px;
+  }
+   .footer-column2 {
+      margin-top:50px;
+    }
+
+  .footer-bar {
+    font-size: 12px;
+  }
+}
+/* Tablet view (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 40px;
+  }
+
+  .footer-column,
+  .footer-column2 {
+    flex: 1 1 45%;
+    text-align: left;
+    margin: 20px;
+  }
+
+  .footer-heading {
+    font-size: 40px;
+  }
+
+  .footer-logo2 {
+    width: 180px;
+  }
+}
+
+/* Desktop & Mac (1025px and above) */
+@media (min-width: 1025px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 80px;
+  }
+
+
+}
+
+
+
+/* First Image Container */
+.first-image {
+  display: flex;
+  flex-direction: row; /* default: horizontal */
+  align-items: center;
+  padding: 20px;
+  max-height: 800px;
+  flex-wrap: wrap; /* allow wrapping when space is small */
+}
+
+/* Left content */
+.left-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+/* Buttons */
+.button-group button {
+  background-color: #DDA0DD;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  border: 3px solid white;
+  padding: 10px 50px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button-group button:hover {
+  background-color: #6A5ACD;
+
+}
+
+/* Right image */
+.right-content {
+  margin-left: 100px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.content-image {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Headings */
+.intro-heading {
+  text-align: left;
+  margin: 20px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.intro-heading .role {
+  font-size: 40px;
+  font-weight: 900;
+  color: #1d1160;
+  letter-spacing: 1.75px;
+  margin-bottom: 5px;
+}
+
+.name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.3;
+  margin: 0;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+
+.name .highlight {
+  color: #DDA0DD;
+  font-weight: 900;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* =====================
+   RESPONSIVE DESIGN
+===================== */
+
+/* Tablets (below 1024px) */
+@media (max-width: 1024px) {
+  .first-image {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left-content {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .right-content {
+    margin-left: 0;
+  }
+
+  .content-image {
+    width: 300px;
+    height: 300px;
+  }
+
+  .intro-heading .role {
+    font-size: 32px;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  .button-group button {
+    padding: 8px 30px;
+    font-size: 14px;
+  }
+}
+
+/* Mobile (below 600px) */
+@media (max-width: 600px) {
+  .first-image {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .left-content {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .right-content {
+    width: 100%;
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .content-image {
+    width: 250px;
+    height: 250px;
+  }
+
+  .intro-heading .role {
+    font-size: 24px;
+  }
+
+  .name {
+    font-size: 1.6rem;
+  }
+
+  .button-group button {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    padding: 8px;
+    font-size: 13px;
+  }
+}
+
+
+
+
+
+
+
+
+/*service*/
+
+
+.skills-table-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+  padding: 0 15px; /* padding for small screens */
+}
+
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.skills-table th,
+.skills-table td {
+  padding: 8px;
+  border: 3px solid #DDA0DD;
+  text-align: center;
+}
+
+.skills-table th {
+  background-color: #f7f7f7;
+  color: #1d1160;
+}
+
+.progress-bar {
+  background-color: yellow;
+  border-radius: 5px;
+  height: 15px;
+  width: 100%;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.progress-fill {
+  background-color: green;
+  height: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+.rating-square {
+  display: inline-block;
+  width: 12px;       /* size of square */
+  height: 12px;
+  background-color: green;
+  margin-right: 6px; /* spacing before text */
+  border-radius: 2px; /* optional: makes it a bit smoother */
+}
+
+.rating-text {
+  font-size: 12px;
+  color: black;
+}
+
+.category-cell {
+  color: white; /* choose your preferred color */
+  font-weight: bold; /* optional: make it stand out */
+  font-size: 15px;   /* optional */
+}
+
+
+/* ---------- Responsive Styles ---------- */
+
+/* For tablets (768px and below) */
+@media (max-width: 768px) {
+  .skills-table {
+    font-size: 14px;
+  }
+
+  .skills-table th,
+  .skills-table td {
+    padding: 6px;
+  }
+
+  .progress-bar {
+    height: 12px;
+  }
+
+  .rating-text {
+    font-size: 11px;
+  }
+}
+
+/* For mobile (480px and below) */
+@media (max-width: 480px) {
+  .skills-table {
+    font-size: 13px;
+    display: block; /* stack into cards */
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .skills-table th,
+  .skills-table td {
+    display: block;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #DDA0DD;
+    padding: 8px;
+  }
+
+  .skills-table th {
+    background: #1d1160;
+    color: white;
+    text-align: center;
+  }
+
+  .progress-bar {
+    width: 80%;
+    height: 10px;
+  }
+
+  .rating-square {
+    width: 10px;
+    height: 10px;
+  }
+
+  .rating-text {
+    font-size: 11px;
+  }
+}
+
+
+
+
+/* Gallery Toggle Buttons */
+/* Gallery Toggle Button */
+/* Gallery Toggle Buttons Container */
+.toggle-container {
+background: #DDA0DD;
+margin-top:100px;
+}
+
+.gallery-toggle-container {
+  display: flex;
+  justify-content: center; /* Centers the toggle buttons horizontally */
+  align-items: center;
+  margin: 10px 0; /* Adds spacing above and below the container */
+  padding: 10px;
+  background: #DDA0DD;
+  border-radius: 10px; /* Optional: Rounds the corners */
+  max-height:80px;
+}
+.toggle-wording-heading {
+
+  font-size: 35px; /* Large font size */
+  background: #DDA0DD;
+  font-weight: bold;
+  color: #1d1160; /* Dark text for the main heading */
+  margin-left:100px;
+  line-height: 1.5; /* Slightly increase line height for readability */
+
+}
+
+
+.gallery-toggle-buttons {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  align-items: center; /* Center buttons vertically (if needed) */
+  margin: 60px 0;
+
+}
+
+/* Gallery Toggle Button */
+.gallery-toggle-button {
+  background-color: transparent; /* Transparent background */
+  border: none; /* Remove all borders */
+  border-bottom: 2px solid gray; /* Add border only at the bottom */
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  color: white; /* Default text color */
+  text-align: center; /* Ensure text is centered */
+  letter-spacing: 0.5px; /* Adjust spacing as needed */
+}
+
+/* Hover and Active State */
+.gallery-toggle-button:hover, .gallery-toggle-button.active {
+  background-color: #6A5ACD; /* Black background on hover or active */
+  color: white; /* White text color */
+  border-color: white;
+}
+
+
+/* Subcategory and Items Display */
+.gallery-images {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the background image */
+  background-repeat: repeat; /* Makes the background image repeat */
+  height: auto; /* Set a fixed height for the gallery */
+  position: relative; /* Enables absolute positioning for title */
+}
+
+.subcategory-container {
+  flex: 0 0 auto; /* Prevent from shrinking */
+  width: auto;
+  margin-bottom: 100px;
+  text-align: center;
+  height: auto;
+  width:100%;
+  padding-bottom: 20px; /* Optional: Adds some space between content and the line */
+  margin-bottom: 20px;
+  position: relative; /* Ensures that the title is positioned correctly inside the container */
+}
+
+
+
+.subcategory-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+  gap: 40px; /* spacing between cards */
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+
+.gallery-button {
+max-width: 150px;
+  max-height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  background: none;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+
+}
+
+.gallery-image {
+margin-top:10px;
+margin-left:10px;
+  width: 200px;
+  height: 120px;
+   object-fit: contain; /* Change from cover to contain */
+
+}
+.gallery-item {
+  flex: 1 1 300px;
+  max-width: 500px;
+  margin: 20px;
+}
+
+.gallery-card {
+
+  border: 4px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+
+.gallery-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.gallery-info h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #1d1160;
+}
+
+.description {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 12px;
+  min-height: 40px;
+}
+.description2 {
+  font-size: 16px;
+  color: black;
+  font-weight:bold;
+  margin-bottom: 12px;
+  min-height: 40px;
+}
+
+
+
+.view-site-button {
+  background-color: #DDA0DD;
+  color: black;
+  font-weight:bold;
+  padding: 10px 50px;
+  font-size: 16px;
+  border: 2px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.view-site-button:hover {
+  color: #6A5ACD;
+}
+
+.view-more-text {
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  border-bottom: none;
+
+
+}
+.view-more-text:hover {
+  font-size: 15px;
+  font-weight: 500;
+  color: #6A5ACD;
+  margin: 0;
+}
+
+
+/* === BASE STYLES (your code stays the same) === */
+/* I’ll only add responsive tweaks below */
+
+/* ---------- Responsive Styles ---------- */
+
+/* Tablet (768px and below) */
+@media (max-width: 768px) {
+  .toggle-wording-heading {
+    font-size: 28px;
+    margin-left: 20px; /* reduce spacing */
+    text-align: center; /* center heading */
+  }
+
+  .gallery-toggle-container {
+    flex-direction: column; /* stack heading & buttons */
+    text-align: center;
+    max-height: none;
+    padding: 15px;
+  }
+
+  .gallery-toggle-buttons {
+    margin: 20px 0;
+    flex-wrap: wrap; /* buttons wrap in multiple lines */
+    gap: 10px;
+  }
+
+  .subcategory-items {
+    grid-template-columns: 1fr; /* 1 card per row */
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .gallery-info h3 {
+    font-size: 20px;
+  }
+
+  .description, .description2 {
+    font-size: 14px;
+  }
+
+  .view-site-button {
+    font-size: 14px;
+    padding: 8px 30px;
+  }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+  .toggle-wording-heading {
+    font-size: 22px;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .gallery-toggle-container {
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .gallery-toggle-button {
+    font-size: 13px;
+    padding: 8px 15px;
+    margin: 5px 0;
+  }
+
+  .subcategory-items {
+    grid-template-columns: 1fr; /* single card stack */
+    gap: 15px;
+  }
+
+  .gallery-card {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+
+
+  .gallery-info h3 {
+    font-size: 18px;
+  }
+
+  .description, .description2 {
+    font-size: 13px;
+  }
+
+  .view-site-button {
+    font-size: 13px;
+    padding: 8px 20px;
+    width: 100%; /* full-width button */
+  }
+}
+
+
+
+
+/* Contact Form Container */
+/* Contact Form Container */
+/* Contact Form Main Container */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  background: #1B1B1B;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Contact Content Wrapper */
+.contact-content {
+  display: flex;
+  max-width: 1300px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Left Column - Contact Info */
+.contact-info {
+  flex: 1;
+  padding: 20px;
+
+}
+.contact-info h1 {
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  align-text:center;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-transform:uppercase;
+  margin-bottom:100px;
+    padding-bottom: 10px; /* Adds some spacing between the text and the border */
+
+}
+.contact-info .highlight {
+
+  font-size: 42px;
+}
+
+.contact-info p {
+  font-size: 17px;
+  margin-bottom: 20px;
+  align-text:center;
+  color: white;
+     line-spacing:5px;
+     text-align: justify;
+     line-height: 1.625;
+
+}
+
+/* Right Column - Contact Form */
+.contact-form {
+  flex: 1;
+  padding: 20px;
+    max-width: 900px;
+    width: 100%;
+    background: #1B1B1B;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+     margin-left: auto; /* Pushes it to the right */
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+background: black;
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  letter-spacing: 3px;
+  color: white;
+  height:70px;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 5px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+/* Submit Button */
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: black;
+  color: white;
+  font-size: 17.5px;
+  cursor: pointer;
+letter-spacing: 3px;
+  border-radius: 5px;
+  transition: 0.3s;
+   border: 1px solid white;
+}
+
+.contact-form button:hover {
+  border: 3px solid #4B6F44;
+  color: white;
+  background-color:#6A5ACD;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+.contact-info h1 {
+  font-size: 30px;
+  letter-spacing:1px;
+  text-align:center;
+}
+.contact-info .highlight {
+  font-size: 31px;
+}
+  .contact-content {
+    flex-direction: column;
+
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100%;
+    padding: 15px;
+    font-size:17px;
+    text-align:justify;
+  }
+  .contact-info p {
+    font-size: 17px;
+  }
+  .contact-form input,
+  .contact-form textarea {
+  background: black;
+    width: 100%;
+    letter-spacing: 2px;
+    color: white;
+    height:50px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .contact-form textarea {
+    height: 100px;
+    resize: none;
+  }
+  .contact-form button {
+    font-size: 15px;
+    cursor: pointer;
+  letter-spacing: 2px;
+    border-radius: 2px;
+
+  }
+}
+
+/* Main Content */
+
+
+/* Wording Section */
+/* Container for two columns */
+.two-column-layout {
+  display: flex;
+  justify-content: space-between; /* Distribute space between the two columns */
+  align-items: flex-start; /* Align items to the top */
+  gap: 20px; /* Space between columns */
+  padding: 20px; /* Optional padding around the layout */
+  border: 2px solid black;
+}
+
+/* Styling for the first column (wording) */
+
+
+/* Styling for the second column (wording2) */
+.wording2 {
+  flex: 2; /* Takes up 2 parts of the available space */
+  text-align: left; /* Aligns text to the left */
+  line-height: 1.6; /* Increases line height for readability */
+}
+
+.wording {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh; /* Center the text vertically */
+  flex: 1; /* Takes up 1 part of the available space */
+    text-align: center; /* Centers the text horizontally */
+}
+
+.wording h1 {
+    font-size: 35px !important; /* Force font size change */
+    color: #1d1160 !important; /* Force color change */
+  white-space: nowrap; /* Prevents the text from wrapping */
+  margin: 0;
+  font-weight:bold !important;
+  letter-spacing:1.5px !important;
+
+}
+.wording2 p {
+  font-size: 17px; /* Adjusts the font size of the paragraph */
+  color: white; /* Sets the color of the text */
+  line-height: 2; /* Increases line spacing for readability */
+  margin-top: 50px; /* Ensures no top margin */
+  margin-bottom: 20px; /* Adds space below the paragraph */
+   text-align: justify;       /* Center-aligns the paragraph text */
+   letter-spacing:1.50px;
+}
+
+/* ---------- Responsive Styles ---------- */
+
+/* Tablet (768px and below) */
+@media (max-width: 768px) {
+  .two-column-layout {
+    flex-direction: column; /* stack columns */
+    gap: 15px; /* reduce spacing */
+    padding: 15px;
+  }
+
+  .wording {
+    flex: unset;
+    height: auto;
+    text-align: center;
+  }
+
+  .wording h1 {
+    font-size: 28px !important;
+    letter-spacing: 1px !important;
+  }
+
+  .wording2 {
+    flex: unset;
+    text-align: justify;
+  }
+
+  .wording2 p {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    line-height: 1.8;
+    letter-spacing: 1.2px;
+  }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+  .two-column-layout {
+    flex-direction: column; /* stack columns */
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .wording {
+    flex: unset;
+    height: auto;
+  }
+
+  .wording h1 {
+    font-size: 22px !important;
+    letter-spacing: 0.8px !important;
+  }
+
+  .wording2 {
+    flex: unset;
+    text-align: justify;
+  }
+
+  .wording2 p {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+  }
+}
+
+
+/* Second Heading (wording2) */
+
+
+/* About Us Section */
+.about-us {
+  position: relative;
+  padding: 50px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-size: cover; /* Ensure the image covers the entire section */
+  background-position: center; /* Center the background image */
+}
+
+
+/* Text Column for About Us */
+.text-column {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.text-column p {
+  max-width: 800px;
+  margin: auto;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17.5px;
+  color:gray;
+  line-height: 1.625;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+/* Animated Heading */
+.animated-heading {
+  font-size: 45px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  text-align: right;
+  position: relative;
+  opacity: 0; /* Initially hidden */
+  transform: translateX(100px);
+  transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+  letter-spacing: 1px;
+}
+
+.animated-heading.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Media Queries for Responsiveness */
+
+/* For Devices with Max Width of 768px (Tablets, small laptops) */
+@media screen and (max-width: 768px) {
+  .wording h1 {
+    font-size: 18px; /* Adjust font size */
+
+  }
+  .wording .highlight {
+    font-size: 18px;
+  }
+
+  .wording2 h1 {
+    font-size: 17px;
+    letter-spacing: 0.5px;
+  }
+   .wording2 p {
+     font-size: 17px;
+     letter-spacing: 0.5px;
+     text-align: left;
+   }
+
+  .about-us {
+    padding: 40px;
+  }
+
+  .text-column {
+    padding: 5px;
+    max-width: 100%; /* Adjust width for smaller screens */
+  }
+
+  .text-column p {
+    font-size: 17.5px;
+     text-align: left;/* Smaller text for better readability */
+  }
+
+  .animated-heading {
+    font-size: 38px; /* Smaller font size */
+    text-align: center; /* Center-align on smaller screens */
+  }
+}
+
+/* For Devices with Max Width of 480px (Mobile) */
+@media screen and (max-width: 480px) {
+  .wording h1 {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+    .wording .highlight {
+      font-size: 18px;
+    }
+
+  .wording2 h1 {
+    font-size: 17.5px;
+    letter-spacing: 0.5px;
+  }
+
+  .about-us {
+    padding: 30px;
+  }
+
+  .text-column {
+    padding: 10px;
+    max-width: 95%; /* Ensure the text column takes up most of the screen */
+  }
+
+  .text-column p {
+    font-size: 17px; /* Adjust font size for small devices */
+  }
+
+  .animated-heading {
+    font-size: 38px; /* Adjust for mobile */
+    text-align: center;
+  }
+
+  /* Ensure that headings and sections are spaced properly on mobile */
+  .wording, .about-us {
+    margin-top: 50px;
+  }
+}
+/* Whats App Button...... */
+.whatsapp-float {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: linear-gradient(135deg, #25D366, #128C7E);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 20px rgba(18, 140, 126, 0.4);
+}
+
+.whatsapp-float::after {
+  content: 'Chat with us';
+  position: absolute;
+  bottom: 70px;
+  right: 50%;
+  transform: translateX(50%);
+  background-color: #128C7E;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.whatsapp-float:hover::after {
+  opacity: 1;
+  transform: translateX(50%) translateY(-5px);
+}
+
+.whatsapp-icon {
+  vertical-align: middle;
+}
+
+
+
+.mobile-logo {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-logo {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 3;
+  }
+
+  .mobile-logo-img {
+    width: 100px;
+    height: auto;
+  }
+}
+
+
+/*Project*/
+
+.projects-container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.projects-table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.project-type {
+  width: 30%;
+  font-size: 1.2rem;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.project-details {
+  padding: 10px;
+  text-align: center;
+}
+
+.project-logo {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+}
+
+.project-name {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+/*Education*/
+
+.timeline-container {
+  display: flex;
+  flex-direction: column; /* stack heading + timeline vertically */
+  align-items: center;
+  padding: 30px;
+}
+
+.wording {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wording h1 {
+  font-size: 32px;
+  color: #1d1160;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  margin: 0;
+}
+
+.timeline-line {
+  position: relative;
+  border-left: 4px solid #DDA0DD;
+  padding-left: 30px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -12px;
+  top: 5px;
+  width: 16px;
+  height: 16px;
+  background-color: #1d1160;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.timeline-content {
+  background: white;
+  margin-left: 20px;
+  padding: 15px;
+  border-radius: 12px;
+  width: 700px;
+  max-width: 100%; /* responsive width */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border: 4px solid #DDA0DD;
+}
+
+.timeline-content h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.timeline-content .university {
+  font-size: 14px;
+  color: #555;
+}
+
+.timeline-content .year {
+  font-size: 14px;
+  color: gray;
+  font-style: italic;
+}
+
+.timeline-content .grade {
+  font-size: 14px;
+  color: #333;
+}
+
+.timeline-content .details {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.certificate-btn {
+  display: inline-block;
+  padding: 8px 14px;
+  background-color: #DDA0DD;
+  color: black;
+  border-radius: 8px;
+  text-decoration: none;
+  border: 2px solid black;
+  transition: 0.3s;
+  font-weight:bold;
+  letter-spacing:1.3px;
+}
+
+.certificate-btn:hover {
+  background-color: #6A5ACD;
+}
+
+/* 📱 Mobile & small screen responsiveness */
+@media (max-width: 768px) {
+  .timeline-container {
+    padding: 20px 15px;
+    align-items: flex-start;
+  }
+
+  .wording h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .timeline-line {
+    border-left: 3px solid #DDA0DD;
+    padding-left: 20px;
+  }
+
+  .timeline-item {
+    margin-bottom: 30px;
+  }
+
+  .timeline-content {
+    margin-left: 15px;
+    padding: 12px;
+    width: 100%; /* take full width */
+  }
+
+  .timeline-content h3 {
+    font-size: 16px;
+  }
+}
+
+/* 📱 Extra small devices (mobile < 480px) */
+@media (max-width: 480px) {
+  .wording h1 {
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+
+  .timeline-content {
+    padding: 10px;
+    margin-left: 12px;
+    border-width: 3px;
+  }
+
+  .timeline-content h3 {
+    font-size: 15px;
+  }
+
+  .timeline-content .details,
+  .timeline-content .university,
+  .timeline-content .year,
+  .timeline-content .grade {
+    font-size: 13px;
+  }
+
+  .certificate-btn {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+}
+
+
+
+
+
+/* Work Ecperience*/
+/* Container for right-side timeline */
+/* Right Timeline */
+/* --- Right Timeline (Desktop) --- */
+.right-timeline {
+  text-align: right;
+  border-top: 6px solid #DDA0DD;
+  position: relative;
+  padding: 20px 0;
+}
+
+.right-heading {
+  display: flex;
+  justify-content: flex-end; /* Right-aligned on desktop */
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* Wrap on smaller screens */
+  gap: 10px;
+}
+
+.right-line {
+  position: relative;
+  margin-left: auto;
+  padding-right: 30px;
+}
+
+.right-item {
+  position: relative;
+  margin-bottom: 40px;
+  padding-right: 50px;
+}
+
+.right-dot {
+  position: absolute;
+  right: -12px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #1d1160;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.rightt-content {
+  background: #fff;
+  border: 4px solid #DDA0DD;
+  border-radius: 10px;
+  padding: 15px;
+  display: center;
+  max-width: 800px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  word-wrap: break-word;
+}
+
+/* --- Responsive Styles --- */
+@media (max-width: 768px) {
+  .right-timeline {
+    text-align: center; /* Center everything on mobile */
+    border-top: none;   /* Optional: remove top border for clean look */
+    padding: 10px;
+  }
+
+  .right-heading {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .right-line {
+    margin: 0 auto;
+    padding-right: 0;
+    border-left: 4px solid #DDA0DD; /* mimic left timeline style */
+  }
+
+  .right-item {
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .right-dot {
+    left: -12px; /* shift dot to left side like education timeline */
+    right: auto;
+  }
+
+  .rightt-content {
+    max-width: 100%;
+    margin-left: 25px; /* create spacing from timeline line */
+    text-align: left;
+    width: calc(100% - 40px);
+  }
+}
+
+/* Certification Section */
+.Apps {
+  text-align: center;
+  padding: 50px 20px;
+  background-image: linear-gradient(358.4deg, rgba(249,151,119,1) -2.1%, rgba(98,58,162,1) 90%);
+}
+
+.Apps h1 {
+  font-size: 35px;
+  color: white;
+  white-space: nowrap;
+  margin: 0 0 20px 0;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+/* Image Grid */
+.images-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Each Image Container */
+.image-container {
+  border: 5px solid #DDA0DD;
+  padding: 10px;
+  background-color: #fff;
+  flex: 1 1 300px; /* Grow, shrink, and default width */
+  max-width: 600px; /* Max image container width */
+  box-sizing: border-box;
+}
+
+/* Images */
+.display-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .Apps h1 {
+    font-size: 28px;
+    white-space: normal;
+  }
+  .image-container {
+    flex: 1 1 90%; /* Almost full width on tablets */
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .Apps h1 {
+    font-size: 24px;
+  }
+  .image-container {
+    flex: 1 1 100%; /* Full width on mobile */
+    max-width: 100%;
+    padding: 5px;
+  }
+}
+
+
+
+
