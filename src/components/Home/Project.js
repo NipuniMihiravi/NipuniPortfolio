@@ -63,21 +63,7 @@ const Service = () => {
       ],
     },
     "WEB APPLICATION": {
-    "Payment Management System": [
-      {
-        id: 3,
-        img: "/Images/inventory.png",
-        pageLinks: [
-          "https://gym-invoices-front.onrender.com",
-          "https://gym-invoice-back.onrender.com"
-        ],
-        description3: "Individual Project - Self Employed",
-        description: `A full-stack Gym Payment Management System with reports, a calendar, payment updates, and user authentication.
-    Login Credentials: Username: admin / Password: admin123
-    To be start the backend server, it may take approximately 2 minutes for the details to load.`,
-        description2: "|React| JAVA| SPRING BOOT | POSTMAN |"
-      },
-    ],
+
 
 
       "Water Billing and Payment System": [
